@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Blog</title>
+ 
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/fevicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header section" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <div class="nav__logo">
+          <div>SSR</div>
+          Groups
+        </div>
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover:underline" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#recent" class="navbar-link hover:underline" data-nav-link>Recent Post</a>
+          </li>
+
+          
+
+        </ul>
+      </nav>
+
+      <div class="wrapper">
+
+        <button class="search-btn" aria-label="search" data-search-toggler>
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Search</span>
+        </button>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <span class="span one"></span>
+          <span class="span two"></span>
+          <span class="span three"></span>
+        </button>
+
+        <a href="#join" class="btn">Join</a>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BAR
+  -->
+
+  <div class="search-bar" data-search-bar>
+
+    <div class="input-wrapper">
+      <input type="search" name="search" placeholder="Search" class="input-field">
+
+      <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+
+    <p class="search-bar-text">Please enter at least 3 characters</p>
+
+  </div>
+
+  <div class="overlay" data-overlay data-search-toggler></div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <h1 class="h1 hero-title">
+            <strong class="strong">Welcome,to our Blog.</strong> See our thoughts, stories and ideas.
+          </h1>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section featured" aria-label="featured post" id="recent">
+        <div class="container">
+
+          <p class="section-subtitle">
+            Get started with our <strong class="strong">best stories</strong>
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="assets/images/f1.jpg" width="500" height="600" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="assets/images/a1.svg" width="100" height="100" loading="lazy" 
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                   
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      AI and Machine Learning in IT
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    In today’s rapidly evolving technological landscape, Artificial Intelligence (AI) 
+                    and Machine Learning (ML) have emerged as some of the most transformative forces in IT. 
+                    These technologies are reshaping how businesses operate, how services are delivered, 
+                    and how complex problems are solved across industries. But how exactly are AI and ML 
+                    being applied in the world of IT? 
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="assets/images/f2.jpg" width="500" height="600" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="assets/images/a2.svg" width="100" height="100" loading="lazy" 
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Cloud Computing Innovations
+
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Cloud computing has revolutionized the way businesses and individuals access and use technology, 
+                    offering unprecedented flexibility, scalability, and cost-efficiency. Over the past few years, 
+                    a series of innovative advancements have made cloud computing even more powerful, enabling 
+                    businesses to stay competitive and agile in an ever-evolving digital world.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/f3.jpg" width="500" height="600" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="assets/images/a3.svg" width="100" height="100" loading="lazy" 
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Cybersecurity 
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    In today’s hyper-connected world, cybersecurity has become more critical than ever. As businesses and 
+                    individuals increasingly rely on digital platforms, the risks of cyberattacks, data breaches, and 
+                    online fraud grow exponentially. Cyber threats are becoming more sophisticated, and the consequences 
+                    of inadequate protection can be devastating—ranging from financial losses to reputational damage, 
+                    and in some cases, even national security risks.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/f4.jpg" width="500" height="600" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="assets/images/a4.svg" width="100" height="100" loading="lazy"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                   
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                
+
+                   
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      The Future of Internet of Things (IoT)
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    The Internet of Things (IoT) has already begun to transform industries, from healthcare and manufacturing 
+                    to transportation and agriculture. As more and more devices get connected to the internet, IoT is poised 
+                    to reshape not only business operations but also how we live, work, and interact with our environment. 
+                    In fact, the IoT market is expected to grow exponentially in the coming years, with billions of devices 
+                    expected to be connected by 2030.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/f5.jpg" width="500" height="600" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/a5.svg" width="100" height="100" loading="lazy"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                 
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Emerging Technologies in IT
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    The world of Information Technology (IT) is evolving at an unprecedented rate. What was cutting-edge a 
+                    few years ago may already be outdated in today’s rapidly changing landscape. As businesses strive to stay 
+                    competitive and relevant, embracing emerging technologies is no longer a luxury—it’s a necessity. 
+                    From Artificial Intelligence (AI) and Quantum Computing to Blockchain and 5G networks, the 
+                    IT industry is undergoing a major transformation.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/f6.jpg" width="500" height="600" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/a6.svg" width="100" height="100" loading="lazy"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      The Environmental Impact of IT 
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    As the world becomes increasingly digital, the Information Technology (IT) sector is at the forefront of 
+                    driving innovation and transforming industries. However, with this rapid advancement comes a significant 
+                    environmental cost. From the energy consumption of data centers to the e-waste generated by obsolete 
+                    electronics, the IT industry is contributing to environmental challenges that demand urgent attention.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RECENT POST
+      -->
+
+      <section class="section recent" aria-label="recent post">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <h2 class="h2 section-title">
+              See what we’ve <strong class="strong">IDEA'S</strong>
+            </h2>
+               
+            
+     
+      
+            <div class="top-author">
+              <ul class="avatar-list">
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/p9.svg" width="100" height="100"  class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/p8.svg" width="100" height="100"  class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/p3.svg" width="100" height="100"  class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/p7.svg" width="100" height="100"  class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/a2.svg" width="100" height="100"  class="img-cover">
+                  </a>
+                </li>
+
+              </ul>
+
+              <span class="span">Let's See</span>
+            </div>
+            
+          </div>
+          
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/r1.jpg" width="550" height="660" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/p1.svg" width="100" height="100" loading="lazy"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Lifestyle</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Health</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">People</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Tech Innovations Transforming Healthcare: From Telemedicine to Wearable Devices
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    The healthcare industry is undergoing a digital transformation fueled by groundbreaking 
+                    technological innovations that are reshaping patient care, improving outcomes, and enhancing 
+                    operational efficiency. From telemedicine revolutionizing access to healthcare services to 
+                    wearable devices empowering individuals to monitor their health in real time, the intersection 
+                    of technology and healthcare is creating new opportunities for better, more personalized care.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/r2.jpg" width="550" height="660" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/p7.svg" width="100" height="100" loading="lazy"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">AI</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">ML</a>
+                    </li>
+
+                    
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      How AI and Machine Learning Are Enhancing Cybersecurity
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    As cyber threats grow increasingly sophisticated, traditional cybersecurity methods are 
+                    often struggling to keep up. Enter Artificial Intelligence (AI) and Machine Learning 
+                    (ML)—technologies that are revolutionizing the way organizations protect their networks, 
+                    data, and systems from malicious attacks. By leveraging AI and ML, cybersecurity solutions 
+                    can become more adaptive, intelligent, and capable of identifying and mitigating threats in real time.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/r3.jpg" width="550" height="660" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/p3.svg" width="100" height="100" loading="lazy"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+
+                  
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">IOT</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Smart Home</a>
+                    </li>
+
+                    
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Tech Solutions for Smart Homes
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Smart homes are no longer a futuristic concept; they are rapidly becoming an integral part of everyday life, 
+                    offering convenience, energy efficiency, and enhanced security. With the rise of IoT (Internet of Things) 
+                    and AI (Artificial Intelligence) technologies, the concept of a smart home has evolved beyond just smart 
+                    speakers and lighting. Today, homes can be equipped with a wide range of interconnected devices that optimize 
+                    everything from energy usage to security systems, providing a seamless and more personalized living experience.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/r4.jpg" width="550" height="660" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/p8.svg" width="100" height="100" loading="lazy"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Data</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Security</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Is Your Data Safe? The Importance of Encryption in the Digital Age
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    In today’s interconnected world, data is the lifeblood of virtually every business, 
+                    individual, and organization. From personal emails and online banking to corporate 
+                    transactions and healthcare records, data is exchanged and stored constantly. However, 
+                    with this vast amount of digital information comes an ever-increasing risk of 
+                    cyberattacks, data breaches, and unauthorized access.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/r5.jpg" width="550" height="660" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/p9.svg" width="100" height="100" loading="lazy" 
+                          class="img-cover">
+                      </a>
+                    </li>
+
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Technology</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Remote Work</a>
+                    </li>
+
+                   
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Tech-Driven Solutions for Managing Remote Teams
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    As the world continues to adapt to the post-pandemic landscape, remote work has evolved from a 
+                    temporary solution to a permanent feature for many businesses. With teams spread across different 
+                    time zones, regions, and even continents, managing remote workers has become both a challenge and 
+                    an opportunity. The key to success lies in technology—the right tools can bridge gaps, foster 
+                    collaboration, and streamline operations, ensuring that remote teams are productive, engaged, 
+                    and cohesive.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/r6.jpg" width="550" height="660" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/p6.svg" width="100" height="100" loading="lazy"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Jobs</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Service</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">AI</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      AI in Customer Service: The Future of Chatbots and Virtual Assistants
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    The world of customer service is evolving rapidly, driven by innovations in Artificial Intelligence (AI). 
+                    Today, AI-powered chatbots and virtual assistants are reshaping how businesses interact with customers, 
+                    providing faster, more efficient, and personalized experiences. This transformation is not only changing 
+                    the way companies handle customer queries but is also setting new standards for service expectations in the 
+                    digital age.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn">Load more</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RECOMMENDED POST
+      -->
+
+      <section class="section recommended" aria-label="recommended post">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <strong class="strong">News</strong>
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/n1.jpg" width="300" height="360" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/p10.svg" width="100" height="100" loading="lazy" 
+                          class="img-cover">
+                      </a>
+                    </li>
+
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      5G Connectivity Expands, Unlocking New IT Opportunities
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/n2.jpg" width="300" height="360" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/p11.svg" width="100" height="100" loading="lazy" 
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      Blockchain in IT: Beyond Cryptocurrencies
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/n3.jpg" width="300" height="360" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/p12.svg" width="100" height="100" loading="lazy" 
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      The Rise of Quantum Computing: Transforming IT Capabilities
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/n4.jpg" width="300" height="360" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/p13.svg" width="100" height="100" loading="lazy"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      How DevOps is Changing the Software Development Lifecycle
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/n5.jpg" width="300" height="360" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/p14.svg" width="100" height="100" loading="lazy" 
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      Digital Transformation in Finance: How Fintech Is Changing the Industry
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/n6.jpg" width="300" height="360" loading="lazy"
+                     class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/p15.svg" width="100" height="100" loading="lazy" 
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      How to Start a Career in IT: Tips for Beginners and Industry Insights
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter" id="join">
+
+        <h2 class="h2 section-title">
+          Subscribe to <strong class="strong">new posts</strong>
+        </h2>
+
+        <form action="" class="newsletter-form">
+          <input type="email" name="email_address" placeholder="Your email address" required class="email-field">
+
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <div class="nav__logo">
+              <div>SSR</div>
+              Groups
+            </div>
+          </a>
+
+          <p class="footer-text">
+            INNOVATE TO SUCCEED
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Social</p>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="mail-outline"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Gmail</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-linkedin"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Linkedin </a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Facebook</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-instagram"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Instagram</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Twitter</a>
+          </li>
+
+         
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">About</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">About us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Our Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Industries</a>
+          </li>
+
+         
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Useful Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Our Brand</a>
+          </li>
+
+          <li>
+            <a href="index.html" class="footer-link hover:underline">Blog & News</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Privacy Policy</a>
+          </li>
+
+         
+
+        </ul>
+
+       
+
+      </div>
+
+      <div class="section footer-bottom">
+
+        <p class="copyright">
+          &copy; Blog 2024. Published by <a href="#" class="copyright-link hover:underline">SSR Groups</a>.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
